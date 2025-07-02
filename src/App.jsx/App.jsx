@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './styles.css';
 
 // Sector-based forms
 const SECTOR_FORMS = {
@@ -52,7 +51,7 @@ function App() {
     }
   };
 
-  // Submit form to Google Apps Script
+  // Submit form
   const submitForm = () => {
     const payload = {
       sector: view.replace("form-", ""),
@@ -94,11 +93,13 @@ function App() {
 
   return (
     <div style={{ fontFamily: "Arial", padding: "20px" }}>
+      {/* Header */}
       <header className="app-header">
         <h1>Guuk Studio M&E Toolkit</h1>
         <p>For South Sudan Humanitarian Use</p>
       </header>
 
+      {/* Login View */}
       {view === "login" && (
         <div className="login-form" style={{ maxWidth: "400px", margin: "auto" }}>
           <h2>Login</h2>
@@ -114,6 +115,7 @@ function App() {
         </div>
       )}
 
+      {/* Dashboard View */}
       {view === "dashboard" && (
         <div className="dashboard" style={{ maxWidth: "600px", margin: "auto" }}>
           <h2>Welcome to M&E Toolkit Dashboard</h2>
@@ -132,6 +134,7 @@ function App() {
         </div>
       )}
 
+      {/* Form View */}
       {view.startsWith("form-") && (
         <div className="form-renderer" style={{ maxWidth: "600px", margin: "auto", background: "white", padding: "20px", borderRadius: "8px", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>
           <h2>{SECTOR_FORMS[view.replace("form-", "")]?.title}</h2>

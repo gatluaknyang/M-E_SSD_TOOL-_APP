@@ -1,3 +1,4 @@
+n/workspaces/M-E_SSD_TOOL-_APP/.gitignoreode_modules
 node_modules/
 build/
 .env
@@ -10,3 +11,4 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+

@@ -1,6 +1,6 @@
 # Guuk Studio - M&E Toolkit for South Sudan
 
-A mobile-first Monitoring & Evaluation Toolkit developed by **Guuk Studio**, designed for **NGOs, UN Agencies, Government Departments, and Business Communities** in South Sudan.
+A powerful, mobile-first Monitoring & Evaluation Toolkit developed by **Guuk Studio**, designed for **NGOs, UN Agencies, Government Departments, and Business Communities** in South Sudan.
 
 This application enables field workers to collect and submit critical data even when offline, syncing automatically when internet becomes available.
 
@@ -18,11 +18,13 @@ This application enables field workers to collect and submit critical data even 
 1. Clone the repo:
    ```bash
    git clone https://github.com/gatluaknyang/me-toolkit.git 
-📁 Save as: `README.md`
+   
+📁 Save as:  
+`/workspaces/M-E_SSD_TOOL-_APP/README.md`
 
 ---
 
-### 8. `LICENSE` – MIT License
+## ✅ 9. Add `LICENSE` (MIT)
 
 ```txt
 MIT License
